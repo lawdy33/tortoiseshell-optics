@@ -1,0 +1,101 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+/* Header - Background - Nav */
+
+.headbox {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  height: 3rem;
+}
+.headbox img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 2rem;
+  display: flex;
+  padding-right: 1rem;
+}
+.headbox span {
+  display: flex;
+  flex-grow: 1;
+}
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  padding-top: 1rem;
+}
+.desktopnav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding-right: 1rem;
+}
+.desktopnav a {
+  padding: 1rem 1rem;
+}
+.mobilenav {
+  display: none;
+}
+header span, li {
+  color: white;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+#glasses {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+#see-box {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  display: inline-flex;
+  margin-right: -2rem;
+}
+#glasses img {
+  display: none;
+}
+
+/* Icons */
+
+.icontainer {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  height: 8rem;
+  text-align: center;
+
+}
+.iconpic img {
+  width: 5rem;
+  height: auto;
+}
+#exams img {
+  width: 3.5rem;
+  height: auto;
+}
+.icons span {
+  text-align: center;
+}
