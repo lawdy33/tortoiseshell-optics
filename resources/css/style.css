@@ -1,7 +1,9 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
-  line-height: 1.4;
+}
+body {
+  line-height: 1.4rem;
 }
 
 /* Header - Background - Nav */
@@ -73,20 +75,23 @@ header nav a {
   display: none;
 }
 
-/* Icons */
+/* Icons: Exams, Fittings, Delivery */
 
 .icontainer {
   width: 960px;
-  margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: auto;
   display: flex;
   justify-content: center;
 }
 .icons {
   height: 8rem;
+  width: 5rem;
+  margin: 3rem;
   text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .iconpic img {
   width: 5rem;
@@ -96,6 +101,44 @@ header nav a {
   width: 3.5rem;
   height: auto;
 }
-.icons span {
-  text-align: center;
+
+/* Philosophy - Appointment */
+
+  .container {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  .blocks {
+    width: 35%;
+  }
+  .cadet {
+    background-color: cadetblue;
+    font-weight: bold;
+    display: inline-flex;
+    color: white;
+    width: 10rem;
+    padding: 0.5rem 0rem 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  #philosophy {
+    padding-right: 5%;
+  }
+
+
+/* Footer */
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+  width: auto;
 }
