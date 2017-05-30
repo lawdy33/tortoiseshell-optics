@@ -145,6 +145,11 @@ footer img {
 
 /*-- Media Queries */
 
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
 /* Tablet */
 
 @media only screen and (max-width: 1024px) {
