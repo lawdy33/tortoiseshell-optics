@@ -142,3 +142,148 @@ footer img {
   height: 1.5rem;
   width: auto;
 }
+
+/*-- Media Queries */
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+
+/* Header - Background - Nav */
+
+  .headbox {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  height: 3rem;
+
+  }
+  header {
+    height: 22rem;
+    width: 100%;
+    padding-top: 0;
+  }
+  .icontainer, .container, footer, header, #glasses {
+    width: 100%;
+  }
+  #glasses {
+    margin-top: 5rem;
+  }
+  #see-box {
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    padding: 0.75rem 4rem;
+    background-color: white;
+    display: inline-flex;
+    margin-right: 2rem;
+  }
+}
+
+/* Mid-Size and Mobile 650px */
+
+@media only screen and (max-width: 650px) {
+
+/* Header - Background - Nav */
+
+  .desktopnav {
+    display: none;
+  }
+  .desktopnav a {
+    padding: 1rem 1rem;
+  }
+  .mobilenav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-right: 1rem;
+  }
+  .icontainer, .container, footer, header, #glasses {
+    width: 100%;
+  }
+  header {
+    height: 17rem;
+    width: 100%;
+    padding-top: 0;
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #see-box {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  #glasses {
+    margin-top: 10rem;
+  }
+
+/* Icons: Exams, Fittings, Delivery */
+
+  .icontainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+    width: 100%;
+  }
+  .icons {
+    font-size: .77rem;
+    margin: 0;
+  }
+  #horizontal-ruler {
+    height: 6rem;
+    margin: 1.54rem 0;
+  }
+  #horizontal-truck {
+    height: 5.5rem;
+  }
+
+/* Philosophy - Appointment */
+
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .container p {
+    font-size: 0.77rem;
+    text-align: justify;
+    padding: 0 0.5rem;
+    line-height: 1.4;
+  }
+  .blocks {
+    display: inline;
+  }
+
+  .cadet {
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  #philosophy p {
+    margin-bottom: 4rem;
+  }
+
+/* Footer */
+
+  footer {
+    justify-content: center;
+    height: 8rem;
+  }
+  footer img {
+    padding: 0;
+    margin: 0;
+  }
+  footer span {
+    display: none;
+  }
+
+}
